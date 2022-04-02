@@ -1,12 +1,7 @@
 body{
   max-width: 1200px; 
   margin: 0 auto;
-  padding: 15px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  background-image: url("../imagens/fr.jpg");
-
+ background-color: antiquewhite;
   
 }
 header{
@@ -14,6 +9,9 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+   
+    width: 100%;
+
 }
 #title{
     flex-direction: column;
@@ -25,6 +23,7 @@ li{
 }
 h1{
     font-weight: 200;
+    color: white;
     
 }
 
@@ -49,14 +48,15 @@ p{
 img{
     width: 480px;
     height: 400px;
-    position: absolute;
+   
     right: 155px;
 }
 a{
-    color: black;
+    color: white;
+    
 }
 a:hover{
-    color: brown;
+    color: rgb(25, 18, 18);
     transition: 0.5s all ;
 }
 #inscreva{
