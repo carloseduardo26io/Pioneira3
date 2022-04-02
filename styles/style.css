@@ -4,7 +4,9 @@ body{
   padding: 15px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  height: 100%;
+  background-image: url("../imagens/fr.jpg");
+
   
 }
 header{
@@ -23,7 +25,9 @@ li{
 }
 h1{
     font-weight: 200;
+    
 }
+
 main{
     display: flex;
     flex-direction: row;
@@ -32,6 +36,7 @@ main{
 h2{
     font-size: 56px;
     line-height: 10px;
+    color: brown;
 
 }
 span{
