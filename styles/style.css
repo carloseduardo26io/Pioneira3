@@ -191,29 +191,44 @@ main{
     background-color: white;
 }
 section{
-    width: 1046px;
-    height: 528px;
-    background-color: aqua;
+    width: 1096px;
+    height: 638px;
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
     margin: auto;
     border-radius: 6px;
     margin-top: 110px;
     position: relative;
+    
 }
 .container{
     display: flex;
     text-align: center;
+    position: absolute;
+    top: 250px;
 }
+
 .intem{
     list-style: none;
     margin: 0px 8px 0px 0px;
-    background-color: gray;
+    background-color: white;
     padding: 15px 15px;
-
 }
+
+
 #incones2{
     font-size: 50px;
+    color: rgb(50, 160, 191);
 }
-
-
-
-
+footer{
+    height: 300px;
+    background-color: rgb(72, 11, 11);
+}
+h3{
+    color: black;
+}
+h4{
+    color: black;
+}
+p{
+    color: black;
+}
