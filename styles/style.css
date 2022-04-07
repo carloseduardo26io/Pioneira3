@@ -202,6 +202,9 @@ main{
 .serv{
    text-align: center;
 }
+
+
+
 .topicos{
     border: 2px solid brown;
     padding: 5px;
@@ -209,7 +212,8 @@ main{
     height: 150px;
     width: 159px;
     text-align: center;
-    
+    margin:  0 auto;
+    position:absolute
     
     
 }
