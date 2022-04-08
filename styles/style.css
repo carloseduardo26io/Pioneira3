@@ -5,6 +5,14 @@ body{
  height: 100px;
   
 }
+@font-face {
+    font-family: teste ;
+    src: url("/fontes/BreadleySans-Regular.ttf");
+}
+@font-face {
+    font-family:lemon ;
+    src: url("/fontes/");
+}
 .header1{
     
     display: flex;
@@ -192,8 +200,10 @@ main{
 }
 section{
     width: 1096px;
-    height: 638px;
-    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+    height: 858px;
+    background-color: #DCD9D4;
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+ background-blend-mode: soft-light,screen;
     margin: auto;
     border-radius: 6px;
     margin-top: 110px;
@@ -204,7 +214,9 @@ section{
     display: flex;
     text-align: center;
     position: absolute;
-    top: 250px;
+    top: 452px;
+    width: 836px;
+    left: 90px;
 }
 
 .intem{
@@ -212,6 +224,12 @@ section{
     margin: 0px 8px 0px 0px;
     background-color: white;
     padding: 15px 15px;
+    width: 168px;
+}
+.intem:hover{
+    background-color: gray;
+ cursor: pointer;
+ 
 }
 
 
@@ -219,6 +237,7 @@ section{
     font-size: 50px;
     color: rgb(50, 160, 191);
 }
+
 footer{
     height: 300px;
     background-color: rgb(72, 11, 11);
@@ -231,4 +250,26 @@ h4{
 }
 p{
     color: black;
+    
+}
+ .img-serv{
+    height: 386px;
+    width: 100%;
+    border-radius: 5px;
+  box-shadow:   1px 2px 3px rgba(0, 0, 0, 0.33);
+ 
+}
+  .titulo{
+    position: absolute;
+    top: 11px;
+    right: 91px;
+    color: white;
+    font-family: lemon;
+}
+.paragrafo{
+    position: absolute;
+    top: 109px;
+    right: 158px;
+    color: white;
+    font-family: lemon;
 }
